@@ -1,1 +1,0 @@
-# website-qa-assistant
