@@ -1,0 +1,6 @@
+FROM python:3.11-slim
+WORKDIR /app
+COPY mcp_server.py .
+RUN pip install fastmcp requests beautifulsoup4
+EXPOSE 8080
+CMD ["python", "mcp_server.py"]
